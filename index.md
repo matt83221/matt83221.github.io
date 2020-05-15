@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8"  />
+  <meat Viewport> <!-- need to look at and fige what it is -->
     <title>[Matthew Wright] | WDD 130 Assignment Portal</title>
     <link rel="stylesheet" href="main.css">
 
