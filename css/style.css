@@ -1,22 +1,86 @@
 
-  body{ 
-      
+  body
+  { 
+     text-align: center; 
     font-size: 60;
    background-color: #0e0d1a;
+   text-align: left;
    
 
 }
-header, main, footer {
+nav
+{
+background-color: #0e0d1a;
+border: 1px;
+padding: 20px;
+}
+nav li
+{
+  display: inline;
+  padding: 5px;
+  font: bold 20px  tahoma;
+}
+header, main, footer 
+{
   max-width: 960px;
   margin: 0 auto;
   color: aqua;
 }
-
-
-main section p{
+main section p
+{
 margin:5px;
 border: 1px solid #2c5466;
 padding: 5px; 
 background-color: #1b0666;
 
+}
+header img{
+  float: right;
+  width: 200px;
+}
+#home_away h1{
+  float: right;
+}
+#home_away p{
+ float:right;
+ max-width: 500px;
+ font-style: oblique;
+ font-size: 20px;
+}
+#home_away img{
+  width: 420px;
+}
+
+
+#wedding img{
+ float:right;
+ width: 420px;
+height: 250px;
+}
+
+
+#wedding p{
+max-width: 500px;
+font-style: oblique;
+font-size:20px;
+
+
+}
+
+#Family_search h1{
+  float: right;
+
+}
+#Family_search P{
+max-width: 500px;
+float:right;
+font-style: oblique;
+font-size: 20px;
+
+
+}
+footer{
+  clear: both;
+ text-align: center;
+ border-top: darkblue;
 }
