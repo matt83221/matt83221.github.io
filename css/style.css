@@ -68,12 +68,12 @@ font-size:20px;
 }
 
 #Family_search h1{
-  float: right;
+  float: left;
 
 }
 #Family_search P{
 max-width: 500px;
-float:right;
+float:left;
 font-style: oblique;
 font-size: 20px;
 
