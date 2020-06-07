@@ -8,8 +8,28 @@
    /* text-align: left;   */
  
 }
-.top_img{
+
+  .banner-box {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-content: center;
+}
   
+.action {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 1em 3em;
+    padding: 1em;
+    text-align: center;
+}
+    
+.action button {
+    line-height: 2em;
+    width: 10em;
+    background-color: #e7c24f;
+    font-size: 1.2em;
+
 }
 header h1{
   padding: 8px;
