@@ -5,19 +5,24 @@
      text-align: center; 
     font-size: 16px;
    background-color: #0e0d1a;
+   position: relative;
+ 
    /* text-align: left;   */
  
 }
 
-  .banner-box {
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-    align-content: center;
-}
+   .banner-box {
+    position: relative;
+      top:-300px;
+     left: 800px; 
+     width: 400px;
+     
+} 
+
   
 .action {
-    grid-column: 1;
-    grid-row: 1;
+  
+   
     background-color: rgba(240, 240, 240, 0.8);
     margin: 1em 3em;
     padding: 1em;
