@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>build your yard</title>
+  <link href="css/site-plan.css" rel="stylesheet" type="texts/css">
+</head>
+
+<body>
+  <header>
+    <h1>Temple Inn & Suites Site Plan</h1>
+    <div class="signature">matthew wright</div>
+  </header>
+  <main>
+    <h2>work hard for you that you can have a butfull yard</h2>
+    <h3>meet are teams </h3>
+    <p>they work hard to make your place nices </p>
+    <h3>see it befor you start</h3>
+    <p>tbliund a modle of your yard so you know its what you want</p>
+    <h2>Branding</h2>
+    <h3>Website Logo</h3>
+    <!-- <img src="" alt="[company] Logo" width="201"  /> -->
+    <hr />
+    <h2>Style Guide</h2>
+    <h3>Color Palette</h3>
+    <p>Palette URL: <a href=https://coolors.co/ffffff-c5f1f4-c5c4ff-bcbbba-232c44
+        target="_blank">https://coolors.co/396e94-e7c24f-a43312-381d2a-aabd8c</a></p>
+    <table class="colors">
+      <tr>
+        <th>Primary</th>
+        <th>Secondary</th>
+        <th>Accent 1</th>
+        <th>Accent 2</th>
+      </tr>
+      <tr>
+        <td class="primary">[#396E94]</td>
+        <td class="secondary">[#E7C24F]</td>
+        <td class="accent1">[#A43312]</td>
+        <td class="accent2"></td>
+      </tr>
+    </table>
+    <h3>Typography</h3>
+    <h4>Heading Font:what we do  </h4>
+    <p>[Reasoning]</p>
+    <h4>Paragraph Font: what we do </h4>
+    <p>we work hard so that your life can be easie</p>
+    <h4>Normal paragraph example</h4>
+    <p>we dision and build yards </p>
+    <h4>Colored paragraph example</h4>
+    <p class="colored">. disin your yard with  ess with are tools</p>
+    <h3>Navigation</h3>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">disine</a></li>
+      </ul>
+    </nav>
+    <h3>Site Map</h3>
+    <p>Coming soon ...</p>
+    <h3>Wireframes</h3>
+    <p>Coming soon ...</p>
+  </main>
+  <footer>[Your name] | BYU-Idaho | WDD 130 - Web Fundamentals</footer>
+</body>
+
+</html>
