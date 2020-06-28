@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+        
+<body>
+    <div id="feedback">
+        <P>good for you all done</P>
+    </div>
+    <form action="result.html" method="GET" enctype="multipart/form-data">
+
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email">
+
+        </div>
+        <div>
+            <label for="yard size"> how big is your yard</label>
+            <input type="number" id="yard size">
+
+        </div>
+        <div>
+            <label for="what are">what are your perferd plants</label>
+            <input type="text" id="what are">
+
+        </div>
+
+        <div>
+            <label for="yard">plaese uplode pictures of your yard 2 ariel and a faw grond shots</label>
+            <input type="text" id="yard">
+
+        </div>
+        
+        
+        <div><label for="what do you want">whats do you want</label>
+            <input type="text" id="what are some thing we missed" placeholder="eat wallfols">
+        </div>
+
+        <button type="submit">submint</button>
+        <button type="reset">reset</button>
+        <button type="menu"><menu><a href="./indexs.html">Home</a>   <a href="./predesign.html">    prededesign</a></menu></button>
+    
+</body>
+</html>
+
+<style>
+    form {
+margin: 0 auto;
+width: 400px;
+padding: 1em;
+border: 1px solid #CCC;
+border-radius: 1em;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+form li + li {
+margin-top: 1em;
+}
+
+ label {
+display: inline-block;
+width: 150px;
+text-align: right;
+} 
+
+input, 
+textarea {
+font: 1em sans-serif;
+width: 300px;
+box-sizing: border-box;
+border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+
+border-color: #000;
+}
+
+textarea {
+
+vertical-align: top;
+
+
+height: 5em;
+}
+
+.button {
+
+padding-left: 90px; 
+}
+
+button {
+margin-left: .5em;
+}
+    #feedback {
+        display: none;
+    }
+</style>
+<script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form element so we can read what was entered in it.
+    const formElement = document.forms[0];
+
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function (e) {
+        // stop the form from doing the default action
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello ' + formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+    });
+</script>
