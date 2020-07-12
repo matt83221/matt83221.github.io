@@ -1,77 +1,93 @@
-<form action="result.html" method="GET" enctype="multipart/form-data">
-  <div>
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" required>
-</div>
-<div>
-  <label for="email">Email</label>
-  <input type="email" name="email" id="email" required>
-</div>
-<div>
-  <label for="age">Age</label>
-  <input type="number" name="age" id="age" min="1" max="200" step="5">
-</div>
-<div>
-  <label for="date">Birthdate</label>
-  <input type="date" name="date" id="date" min="2019-06-10">
-</div>
-<div>
-  Favorite Food
-  <div>
-    <label for="banana">Banana</label>
-    <input type="checkbox" name="banana" id="banana">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="content">
+    <h1>Block vs Inline alignment</h1>
+    <p>Earlier in the semester you were introduced to the concept of
+                <kbd>block</kbd> and <kbd>inline</kbd> elements. Blocks flow
+                vertically down the page by default, and inline flows horizontally across.
+                You were also shown how to center both inline and block elements.
+                Let's review that again now. Follow the activity instructions to make this poem flow down the page.</p>
   </div>
-  <div>
-    <label for="apple">Apple</label>
-    <input type="checkbox" name="apple" id="apple">
+  <div class="poem">
+    <section class="block1">
+      <h2>The Cataract of Lodore</h2>
+      <p class="a">...The cataract strong</p>
+      <p class="b"> Then plunges along,</p>
+      <p class="c">Striking and raging</p>
+    </section>
+    <section class="block2">
+      <p class="a">As if a war waging Its caverns and rocks among;</p>
+      <p class="b"> Rising and leaping, Sinking and creeping,</p>
+      <p class="c"> Swelling and sweeping, Showering and springing,</p>
+    </section>
+    <section class="block3">
+      <p class="a"> Flying and flinging, Writhing and ringing, </p>
+      <p class="b">Eddying and whisking, Spouting and frisking,</p>
+      <p class="c"> Turning and twisting,</p> 
+      
+   </section>
+    <section class="block4">
+      <p class="c">Around and around With endless rebound:</p>
+      <p class="b"> Smiting and fighting, A sight to delight in;</p>
+      <p class=""> Confounding, astounding, Dizzying and deafening</p>
+      <p> the ear with its sound.</p>
+    </section>
   </div>
-</div>
-<div>
-  Gender
-  <div>
-    <label for="male">Male</label>
-    <input type="radio" name="gender" id="male" value="male">
-  </div>
-  <div>
-    <label for="female">Female</label>
-    <input type="radio" name="gender" id="female" value="female">
-  </div>
-</div>
-<div>
-  <label for="eyeColor">Eye Color</label>
-  <select name="eyeColor" id="eyeColor" multiple>
-    <option value="Green">Green</option>
-    <option label="Red" value="Red"></option>
-  </select>
-</div>
-<div>
-  <label for="bio">Bio</label>
-  <textarea id="bio" name="bio"></textarea>
-</div>
-<input type="hidden" name="hidden" value="hi">
-<div>
-  <label for="file">File</label>
-  <input id="file" type="file" name="file">
-</div>
-<div>
-  <label for="phone">Phone</label>
-  <input type="tel" name="phone" id="phone">
-</div>
-<div>
-  <label for="url">URL</label>
-  <input type="url" name="url" id="url">
-</div>
-<div>
-  <label for="color">Color</label>
-  <input type="color" name="color" id="color">
-</div>
-<div>
-  <label>
-    Password
-    <input type="password" name="password" required>
-  </label>
-</div>
-<button type="reset">Reset</button>
-<button type="submit">Submit</button>
-</form>
-    
+  
+</body>
+</html>
+
+
+
+
+<style>
+.a{
+  text-align: left;
+}
+.b{
+  text-align: center;
+
+}
+.c{
+  text-align: right;
+}
+
+            
+  
+section {
+  width: 50%;
+  border: 1px solid;
+  
+
+  
+
+
+}
+.block1{
+
+  p:nth-of-type(1) { text-align: center;}
+  p:nth-of-type(2) {  text-align: center;}               
+  p:nth-of-type(3) { text-align:right; }
+            
+  
+}
+.block2{
+  margin: auto;
+}
+
+.block3{
+  margin-left: auto;
+ 
+}
+.block4{
+  margin: auto;
+}
+
+
+</style>
