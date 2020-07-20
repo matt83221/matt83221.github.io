@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/my_websit/my_css/css.css">
     <title>form</title>
 </head>
         
 <body>
+    <div class="topnav">
+        <a href="./indexs.html">Home</a>
+        <a href="./form.html">personal design</a>
+        <a href="./indexs.html#contact">Contact</a>
+        <a href="#about">About</a>
+
+      </div>
     <div id="feedback">
         <P>good for you all done</P>
     </div>
     <form action="result.html" method="GET" enctype="multipart/form-data">
-
+<div class="backgrond">
         <div>
             <label for="email">email</label>
             <input type="email" id="email">
@@ -38,49 +46,57 @@
         <div><label for="what do you want">whats do you want</label>
             <input type="text" id="what are some thing we missed" placeholder="eat wallfols">
         </div>
+        </div>
 
         <button type="submit">submint</button>
         <button type="reset">reset</button>
-        <button type="menu"><menu><a href="./indexs.html">Home</a>   <a href="./predesign.html">    prededesign</a></menu></button>
+        
     
 </body>
 </html>
 
 <style>
-    form {
+form {
 margin: 0 auto;
 width: 400px;
 padding: 1em;
 border: 1px solid #CCC;
 border-radius: 1em;
 }
+.topnav{
+    max-width: 400px;
+}
+.backgrond{
+    background: rgba(211, 211, 211, 0.7)
+}
 
-ul {
+.ul {
 list-style: none;
 padding: 0;
 margin: 0;
 }
 
-form li + li {
+.form li + li {
 margin-top: 1em;
 }
 
- label {
+label {
 display: inline-block;
 width: 150px;
 text-align: right;
 } 
 
-input, 
-textarea {
+
+.textarea {
 font: 1em sans-serif;
 width: 300px;
 box-sizing: border-box;
-border: 1px solid #999;
+border: 1px  rgba(0, 0, 0, 0.3);
+
 }
 
 input:focus, 
-textarea:focus {
+.textarea:focus {
 
 border-color: #000;
 }

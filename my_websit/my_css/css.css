@@ -12,18 +12,27 @@
     position: relative;
     
 }
+.test{
+    display: grid;
+  grid-template-columns: 4fr 4fr;
+  grid-gap: 20px;
+  justify-items: center;
+}
+/* top pegraf of main page */
 .whatwedo{
     text-align: center;
     border: darkgray;
     padding: 4px;
     background-color: rgba(245, 245, 245, 0.70);
     max-width: 600px;
-    margin: 20px;
+    margin: 50px;
     width: 600px;
-    position: relative;;
-    left: 450px;
+    margin-left: 107px;
+    
+    /* position: relative;;
+    left: 450px; */
 
-
+    grid-row: 2fr, 2fr;
   
 }
 
@@ -33,7 +42,7 @@
     width: 400px;
 }
 
-
+/* home page top nav */
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -63,6 +72,7 @@ header, main, footer {
 
 body {
     
+    
     text-align: center;
     border: darkgray;
     padding: 0px;
@@ -78,6 +88,7 @@ body {
   grid-gap: 20px;
   justify-items: center;
 } */
+/* mainimg is the img behind dinsen select or 2 area */
 .mainimg {
   
     background-image: url(../imiges/flower-bed.jpg);
@@ -87,8 +98,12 @@ body {
     background-size: cover;
 
     position: relative;
+    
   
 }
+
+
+/* black behind dision select */
 .container1 {
     margin: 20px;
     text-align: center;
@@ -100,6 +115,7 @@ body {
 
 
 
+/* nav on disin slelect */
 .designnav a {
    text-align: center;
     color: #f2f2f2;
@@ -114,7 +130,7 @@ body {
     color: black;
 }
 
-main section p {
+.main section p {
     margin: 5px;
      border: 1px solid #2c5466; 
     padding: 5px;
