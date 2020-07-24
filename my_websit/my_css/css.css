@@ -1,4 +1,4 @@
- .bg-img {
+.bg-img {
 
 
     
@@ -32,7 +32,7 @@
     /* position: relative;;
     left: 450px; */
 
-    grid-row: 2fr, 2fr;
+    
   
 }
 
@@ -139,7 +139,7 @@ body {
 }
 
 #what-do {
-    grid-row: 1fr, 2fr;
+   
     color: rgb(33, 36, 37);
     width: 560px;
 }
